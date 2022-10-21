@@ -4,8 +4,8 @@
   "description": "oelp-tokens",
   "main": "index.js",
   "scripts": {
-    "build-tokens-dictionary-basic-light": "npx token-transformer color-tokens.json  tokens/light/basic-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
-    "build-tokens-dictionary-basic-dark": "npx token-transformer color-tokens.json  tokens/dark/basic-tokens.json main,dark --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-tokens-dictionary-basic-light": "npx token-transformer basic-tokens.json  tokens/light/basic-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
+    "build-tokens-dictionary-basic-dark": "npx token-transformer basic-tokens.json  tokens/dark/basic-tokens.json main,dark --expandTypography=true --expandShadow=true  --resolveReferences='math'",
     "build-tokens-dictionary-web-light": "npx token-transformer web-tokens.json  tokens/light/web-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
     "build-tokens-dictionary-web-dark": "npx token-transformer web-tokens.json  tokens/dark/web-tokens.json main,dark --expandTypography=true --expandShadow=true  --resolveReferences='math'",
     "build-dictionary-light": "style-dictionary build --config ./config.js",
