@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Oct 2022 13:14:02 GMT
+ * Generated on Fri, 21 Oct 2022 13:32:47 GMT
  */
 
 export const SurfaceFront = "#f9f9f9";
@@ -30,6 +30,7 @@ export const InteractiveLightHover = "#c2e2f2";
 export const InteractiveDefault = "#0f9cfa";
 export const InteractiveHover = "#0890ee";
 export const InteractiveActive = "#13a0fe";
+export const InteractiveTestTokenLol = "#e00b0b";
 export const PriorityLow = "#2186e3";
 export const PriorityMid = "#ea840c";
 export const PriorityHigh = "#f04b45";
