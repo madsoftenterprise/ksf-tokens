@@ -20,10 +20,6 @@
       "active": {
         "value": "#13a0fe",
         "type": "color"
-      },
-      "testTokenLol": {
-        "value": "#e00b0b",
-        "type": "color"
       }
     },
     "priority": {
