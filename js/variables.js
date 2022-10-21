@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Oct 2022 11:34:50 GMT
+ * Generated on Fri, 21 Oct 2022 11:44:39 GMT
  */
 
 export const ShadowElevationDefault0Color = "#2c2c360a";
