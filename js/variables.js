@@ -1,8 +1,49 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Oct 2022 11:44:39 GMT
+ * Generated on Fri, 21 Oct 2022 13:14:02 GMT
  */
 
+export const SurfaceFront = "#f9f9f9";
+export const SurfaceMid = "#f4f4f4";
+export const SurfaceBack = "#eceff1";
+export const SurfaceDarkBack = "#010311";
+export const SurfaceBlackout = "#00000080";
+export const SurfaceDarkBlackout = "#000000d6";
+export const Gray50 = "#fafafa";
+export const Gray100 = "#f7fafc";
+export const Gray200 = "#edf4f7";
+export const Gray300 = "#e6eff4";
+export const Gray400 = "#cbd9e0";
+export const Gray500 = "#a0b5c0";
+export const Gray600 = "#718a96";
+export const Gray700 = "#4a5868";
+export const Gray800 = "#23262d";
+export const Gray900 = "#131820";
+export const Gray1000 = "#0c0d0e";
+export const StatusForMarkerTextOutline = "#eeeeee";
+export const StatusForMarkerStart = "#12a12f";
+export const StatusForMarkerEnd = "#75929d";
+export const StatusForMarkerStartActive = "#008311";
+export const StatusForMarkerEndActive = "#4d6a75";
+export const InteractiveDisabled = "#d7eaf4";
+export const InteractiveLightHover = "#c2e2f2";
+export const InteractiveDefault = "#0f9cfa";
+export const InteractiveHover = "#0890ee";
+export const InteractiveActive = "#13a0fe";
+export const PriorityLow = "#2186e3";
+export const PriorityMid = "#ea840c";
+export const PriorityHigh = "#f04b45";
+export const StatusStart = "#12a12f";
+export const StatusEnd = "#adadad";
+export const ValidationSuccessMain = "#2cc54f";
+export const ValidationSuccessBg = "#e7faeb";
+export const ValidationSuccessContent = "#0d6b23";
+export const ValidationWarningMain = "#f2bd04";
+export const ValidationWarningBg = "#fff8cb";
+export const ValidationWarningContent = "#675209";
+export const ValidationErrorMain = "#fc5b6c";
+export const ValidationErrorBg = "#fbedef";
+export const ValidationErrorContent = "#951a20";
 export const ShadowElevationDefault0Color = "#2c2c360a";
 export const ShadowElevationDefault0Type = "dropShadow";
 export const ShadowElevationDefault0X = "0px";
