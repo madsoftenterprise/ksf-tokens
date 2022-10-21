@@ -1,0 +1,27 @@
+{
+  "source": ["./tokens/dark/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./css/",
+      "files": [{
+        "destination": "variables-dark.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "./js/",
+      "files": [{
+        "destination": "variables-dark.js",
+        "format": "javascript/es6",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    }
+  }
+}
