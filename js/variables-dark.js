@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 12 Nov 2022 11:52:03 GMT
+ * Generated on Sat, 12 Nov 2022 12:39:46 GMT
  */
 
 export const SurfaceFront = "#2C2E30";
