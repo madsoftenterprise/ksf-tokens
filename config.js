@@ -43,7 +43,7 @@ module.exports = {
         }
       },{
         "destination": "variables.scss",
-        "format": "customFormat",
+        "format": "scss/variables",
         "options": {
           "outputReferences": true
         }
