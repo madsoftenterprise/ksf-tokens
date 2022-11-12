@@ -24,7 +24,7 @@
     "url": "https://github.com/RuDami/ksf-tokens/issues"
   },
   "homepage": "https://github.com/RuDami/ksf-tokens#readme",
-  "dependencies": {
+  "devDependencies": {
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.24"
   }
