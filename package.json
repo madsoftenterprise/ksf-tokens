@@ -1,7 +1,7 @@
 {
-  "name": "oelp-tokens",
+  "name": "ksf-tokens",
   "version": "0.0.1",
-  "description": "oelp-tokens",
+  "description": "ksf-tokens",
   "main": "index.js",
   "scripts": {
     "build-tokens-dictionary-basic-light": "npx token-transformer basic-tokens.json  tokens/light/basic-tokens.json main,light --expandTypography=true --expandShadow=true  --resolveReferences='math'",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fEkcL/test-tokens.git"
+    "url": "git+https://github.com/RuDami/ksf-tokens"
   },
   "author": "fEkcL&Di.Klenz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fEkcL/test-tokens/issues"
+    "url": "https://github.com/RuDami/ksf-tokens/issues"
   },
-  "homepage": "https://github.com/fEkcL/test-tokens#readme",
+  "homepage": "https://github.com/RuDami/ksf-tokens#readme",
   "dependencies": {
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.24"
