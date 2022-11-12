@@ -19,7 +19,7 @@ module.exports = {
     }
   },
 
-  source: ['tokens/**/*.json'],
+  source: ['tokens/dark/**/*.json'],
   platforms: {
 
     "css": {
