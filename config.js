@@ -31,14 +31,20 @@ module.exports = {
         }
       }]
     },
-    scss: {
-      transformGroup: 'scss',
-      buildPath: 'css/',
-      files: [{
-        destination: 'variables.scss',
-        format: 'customFormat',
-        options: {
-          outputReferences: true,
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "./css/",
+      "files": [{
+        "destination": "variables.css",
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        }
+      },{
+        "destination": "variables.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
         }
       }]
     }

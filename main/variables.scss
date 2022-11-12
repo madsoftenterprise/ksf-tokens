@@ -1,0 +1,6 @@
+@import "../css/variables.css";
+
+
+body[data-theme='light'] {
+  @import "../css/variables-dark.css";
+}
