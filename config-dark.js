@@ -1,7 +1,7 @@
 module.exports = {
   format: {
     customFormat: function({dictionary, options}) {
-      return `:[data-theme=dark]{\n
+      return `[data-theme=dark]{\n
       ${dictionary.allTokens.map(token => {        
         if (token.name.includes('font-weight')) {
           if (!token.name.indexOf('f')) {
