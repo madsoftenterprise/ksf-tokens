@@ -20,12 +20,6 @@ module.exports = {
         "options": {
           "outputReferences": true
         }
-      },{
-        "destination": "variables.scss",
-        "format": "sassFormatVariables",
-        "options": {
-          "outputReferences": true
-        }
       }]
     }
   }

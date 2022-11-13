@@ -21,12 +21,6 @@ module.exports = {
           "outputReferences": true,
           "selector": "[data-theme=dark]",
         }
-      },{
-        "destination": "variables-dark.scss",
-        "format": "sassFormatVariables",
-        "options": {
-          "outputReferences": true
-        }
       }]
     }
   }
