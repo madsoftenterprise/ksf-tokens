@@ -135,8 +135,12 @@ function createPropertyFormatter({
           }
         });
       }
+
     }
 
+    if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*"))) {
+      value = 'calc('+value+ ")"
+    }
     if (prop.name.includes('font-weight')) {
       if (!prop.name.indexOf('f')) {
         return `${indentation}${prefix}${prop.name}${separator}${prop.description};`
