@@ -136,22 +136,24 @@ function createPropertyFormatter({
         });
       }
 
+    }else  {
+      if (prop.name.includes('font-weight')) {
+        if (!prop.name.indexOf('f')) {
+          return `${indentation}${prefix}${prop.name}${separator}${prop.description};`
+        }
+        const fontWeight = dictionary
+            .allTokens.find(item => {
+              return item.type === 'fontWeights' && item.value === prop.value
+            }).description
+
+        return `${indentation}${prefix}${prop.name}${separator}${fontWeight};`
+      }
     }
 
-    if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*") || value.includes("-") || value.includes("/"))) {
+    if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
       value = 'calc('+value+ ")"
     }
-    if (prop.name.includes('font-weight')) {
-      if (!prop.name.indexOf('f')) {
-        return `${indentation}${prefix}${prop.name}${separator}${prop.description};`
-      }
-      const fontWeight = dictionary
-          .allTokens.find(item => {
-            return item.type === 'fontWeights' && item.value === prop.value
-          }).description
 
-      return `${indentation}${prefix}${prop.name}${separator}${fontWeight};`
-    }
 
 
     to_ret_prop += prop.attributes.category === 'asset' ? `"${value}"` : value;
