@@ -18,7 +18,8 @@ module.exports = {
         "destination": "variables-dark.css",
         "format": "cssFormatVariables",
         "options": {
-          "outputReferences": true
+          "outputReferences": true,
+          "selector": "[data-theme=dark]",
         }
       },{
         "destination": "variables-dark.scss",
