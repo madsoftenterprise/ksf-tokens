@@ -144,6 +144,9 @@ function sassExportCreatePropertyFormatter({
             value =  `var(${prefix}${prop.name})`
 
         }
+        if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
+            value = 'calc('+value+ ")"
+        }
 
 
         to_ret_prop += prop.attributes.category === 'asset' ? `"${value}"` : value;
