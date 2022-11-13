@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 13 Nov 2022 14:09:38 GMT
+ * Generated on Sun, 13 Nov 2022 14:12:36 GMT
  */
 
 $theme-colors: (
@@ -363,17 +363,17 @@ $theme-colors: (
    titleH1Weight1LetterSpacing: var(--letter-spacing-m0-3),
    titleH1Weight1FontWeight: var(--font-weights-main-b),
    titleH1Weight1FontFamily: var(--font-families-main),
-   fontSizeX25: var(--font-size-basic)*2.5,
-   fontSizeX3: var(--font-size-basic)*3,
-   fontSizeX35: var(--font-size-basic)*3.5,
-   fontSizeX4: var(--font-size-basic)*4,
-   fontSizeX45: var(--font-size-basic)*4.5,
-   fontSizeX5: var(--font-size-basic)*5,
-   fontSizeX6: var(--font-size-basic)*6,
-   lineHeightsX4: var(--font-size-basic)*4,
-   lineHeightsX5: var(--font-size-basic)*5,
-   lineHeightsX6: var(--font-size-basic)*6,
-   lineHeightsX7: var(--font-size-basic)*7,
+   fontSizeX25: calc(var(--font-size-basic)*2.5),
+   fontSizeX3: calc(var(--font-size-basic)*3),
+   fontSizeX35: calc(var(--font-size-basic)*3.5),
+   fontSizeX4: calc(var(--font-size-basic)*4),
+   fontSizeX45: calc(var(--font-size-basic)*4.5),
+   fontSizeX5: calc(var(--font-size-basic)*5),
+   fontSizeX6: calc(var(--font-size-basic)*6),
+   lineHeightsX4: calc(var(--font-size-basic)*4),
+   lineHeightsX5: calc(var(--font-size-basic)*5),
+   lineHeightsX6: calc(var(--font-size-basic)*6),
+   lineHeightsX7: calc(var(--font-size-basic)*7),
    buttonLiteFontSize: var(--font-size-x4),
    buttonLiteLineHeight: var(--line-heights-x5),
    buttonDefaultFontSize: var(--font-size-x4),
