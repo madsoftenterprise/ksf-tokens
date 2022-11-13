@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 13 Nov 2022 10:25:56 GMT
+ * Generated on Sun, 13 Nov 2022 12:07:40 GMT
  */
 
 [data-theme=dark] {
@@ -100,6 +100,8 @@
   --shadow-elevation-default-0-x: 0;
   --shadow-elevation-default-0-type: dropShadow;
   --shadow-elevation-default-0-color: #0000001f;
+  --gray-unchangeable-1000: #0c0d0e;
+  --gray-unchangeable-50: #fafafa;
   --validation-error-content: #951a20;
   --validation-error-bg: #fbedef;
   --validation-error-main: #fc5b6c;
