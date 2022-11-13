@@ -107,6 +107,16 @@
           "type": "color"
         }
       }
+    },
+    "gray-unchangeable": {
+      "50": {
+        "value": "#fafafa",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#0c0d0e",
+        "type": "color"
+      }
     }
   },
   "light": {
