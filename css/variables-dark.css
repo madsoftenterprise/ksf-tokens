@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 13 Nov 2022 09:49:42 GMT
+ * Generated on Sun, 13 Nov 2022 10:02:51 GMT
  */
 
 [data-theme=dark] {
@@ -363,17 +363,17 @@
   --title-h1-weight-1-letter-spacing: var(--letter-spacing-m0-3);
   --title-h1-weight-1-font-weight:600;
   --title-h1-weight-1-font-family: var(--font-families-main);
-  --font-size-x2-5: var(--font-size-basic)*2.5;
-  --font-size-x3: var(--font-size-basic)*3;
-  --font-size-x3-5: var(--font-size-basic)*3.5;
-  --font-size-x4: var(--font-size-basic)*4;
-  --font-size-x4-5: var(--font-size-basic)*4.5;
-  --font-size-x5: var(--font-size-basic)*5;
-  --font-size-x6: var(--font-size-basic)*6;
-  --line-heights-x4: var(--font-size-basic)*4;
-  --line-heights-x5: var(--font-size-basic)*5;
-  --line-heights-x6: var(--font-size-basic)*6;
-  --line-heights-x7: var(--font-size-basic)*7;
+  --font-size-x2-5: calc(var(--font-size-basic)*2.5);
+  --font-size-x3: calc(var(--font-size-basic)*3);
+  --font-size-x3-5: calc(var(--font-size-basic)*3.5);
+  --font-size-x4: calc(var(--font-size-basic)*4);
+  --font-size-x4-5: calc(var(--font-size-basic)*4.5);
+  --font-size-x5: calc(var(--font-size-basic)*5);
+  --font-size-x6: calc(var(--font-size-basic)*6);
+  --line-heights-x4: calc(var(--font-size-basic)*4);
+  --line-heights-x5: calc(var(--font-size-basic)*5);
+  --line-heights-x6: calc(var(--font-size-basic)*6);
+  --line-heights-x7: calc(var(--font-size-basic)*7);
   --button-lite-font-size: var(--font-size-x4);
   --button-lite-line-height: var(--line-heights-x5);
   --button-default-font-size: var(--font-size-x4);
