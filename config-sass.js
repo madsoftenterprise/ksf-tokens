@@ -12,14 +12,14 @@ module.exports = {
             suffix: ','
         }
         const transform = (value) => {
-            console.log('value', value)
-            return transforms["name/cti/camel"].transformer(
-                {
-                    path: value.split('-')
-                }, {
-                    prefix: ''
-                }
-            )
+            return value
+            // return transforms["name/cti/camel"].transformer(
+            //     {
+            //         path: value.split('-')
+            //     }, {
+            //         prefix: ''
+            //     }
+            // )
         }
         return sassExportFormatVariables({dictionary, options, file, forcePrefix,beforeFormatSymbol, afterFormatSymbol, formatting, transform});
 
