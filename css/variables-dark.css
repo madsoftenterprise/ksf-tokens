@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 13 Nov 2022 14:15:40 GMT
+ * Generated on Mon, 14 Nov 2022 05:32:39 GMT
  */
 
 [data-theme=dark] {
@@ -16,11 +16,11 @@
   --letter-spacing-m0-32: -0.32px;
   --letter-spacing-0: 0;
   --font-size-basic: 4px;
-  --font-weights-main-l:300;
-  --font-weights-main-r:400;
-  --font-weights-main-m:500;
-  --font-weights-main-sb:600;
-  --font-weights-main-b:700;
+  --font-weights-main-l: 300;
+  --font-weights-main-r: 400;
+  --font-weights-main-m: 500;
+  --font-weights-main-sb: 600;
+  --font-weights-main-b: 700;
   --font-families-main: Inter;
   --shadow-card-active-1-spread: 0;
   --shadow-card-active-1-blur: 20;
