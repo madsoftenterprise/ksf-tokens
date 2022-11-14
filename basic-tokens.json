@@ -117,6 +117,12 @@
         "value": "#0c0d0e",
         "type": "color"
       }
+    },
+    "brand": {
+      "blue": {
+        "value": "#4ac7e9",
+        "type": "color"
+      }
     }
   },
   "light": {
