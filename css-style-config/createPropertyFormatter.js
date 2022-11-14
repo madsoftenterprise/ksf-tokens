@@ -85,14 +85,6 @@ function createPropertyFormatter({
       break;
   }
 
-  // const checkFont = (ref, prop, callback) => {
-  //   console.log('-----------------------------')
-  //   console.log('ref.value', ref.value)
-  //   console.log('ref.name', ref.name)
-  //   console.log('ref.description', ref.description)
-  //   console.log('prop', prop)
-  // }
-
   return function(prop) {
     let to_ret_prop = `${indentation}${prefix}${prop.name}${separator} `;
     let value = prop.value;
@@ -139,18 +131,19 @@ function createPropertyFormatter({
     }else  {
       if (prop.name.includes('font-weight')) {
         if (!prop.name.indexOf('f')) {
-          return `${indentation}${prefix}${prop.name}${separator}${prop.description};`
+          value = prop.description
         }
         const fontWeight = dictionary
             .allTokens.find(item => {
               return item.type === 'fontWeights' && item.value === prop.value
             }).description
 
-        return `${indentation}${prefix}${prop.name}${separator}${fontWeight};`
+        value = fontWeight
       }
     }
 
-    if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
+    if(typeof value === 'string' && format === 'css' &&
+        (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
       value = 'calc('+value+ ")"
     }
 

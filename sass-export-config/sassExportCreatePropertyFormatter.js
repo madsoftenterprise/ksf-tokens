@@ -87,19 +87,11 @@ function sassExportCreatePropertyFormatter({
             break;
     }
 
-    // const checkFont = (ref, prop, callback) => {
-    //   console.log('-----------------------------')
-    //   console.log('ref.value', ref.value)
-    //   console.log('ref.name', ref.name)
-    //   console.log('ref.description', ref.description)
-    //   console.log('prop', prop)
-    // }
 
     return function (prop) {
         const transformName = transform ? transform(prop.name): prop.name
         let to_ret_prop = `${indentation}${forcePrefix ? forcePrefix : prefix}${transformName}${separator} `;
         let value = prop.value;
-        console.log('prop', prop)
         /**
          * A single value can have multiple references either by interpolation:
          * "value": "{size.border.width.value} solid {color.border.primary.value}"
@@ -140,9 +132,7 @@ function sassExportCreatePropertyFormatter({
             }
 
         } else {
-
             value =  `var(${prefix}${prop.name})`
-
         }
         if(typeof value === 'string' && format === 'css' && (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
             value = 'calc('+value+ ")"
