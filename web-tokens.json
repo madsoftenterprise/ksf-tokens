@@ -86,8 +86,7 @@
             "spread": "0px"
           }
         ],
-        "type": "boxShadow",
-        "description": "shadow-popup"
+        "type": "boxShadow"
       }
     },
     "shadow-card": {
@@ -764,26 +763,26 @@
           {
             "color": "#0000001f",
             "type": "dropShadow",
-            "x": 0,
-            "y": 0,
-            "blur": 1,
-            "spread": 0
+            "x": "0px",
+            "y": "0px",
+            "blur": "1px",
+            "spread": "0px"
           },
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 0,
-            "blur": 2,
-            "spread": 0
+            "x": "0px",
+            "y": "0px",
+            "blur": "2px",
+            "spread": "0px"
           },
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 8,
-            "spread": 0
+            "x": "0px",
+            "y": "2px",
+            "blur": "8px",
+            "spread": "0px"
           }
         ],
         "type": "boxShadow"
@@ -793,26 +792,26 @@
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 0,
-            "blur": 1,
-            "spread": 0
+            "x": "0px",
+            "y": "0px",
+            "blur": "1px",
+            "spread": "0px"
           },
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 6,
-            "spread": 0
+            "x": "0px",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0px"
           },
           {
             "color": "#0000000f",
             "type": "dropShadow",
-            "x": 0,
-            "y": 10,
-            "blur": 20,
-            "spread": 0
+            "x": "0px",
+            "y": "10px",
+            "blur": "20px",
+            "spread": "0px"
           }
         ],
         "type": "boxShadow"
@@ -822,30 +821,29 @@
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 0,
-            "blur": 1,
-            "spread": 0
+            "x": "0px",
+            "y": "0px",
+            "blur": "1px",
+            "spread": "0px"
           },
           {
             "color": "#00000014",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 6,
-            "spread": 0
+            "x": "0px",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0px"
           },
           {
             "color": "#0000000f",
             "type": "dropShadow",
-            "x": 0,
-            "y": 16,
-            "blur": 24,
-            "spread": 0
+            "x": "0px",
+            "y": "16px",
+            "blur": "24px",
+            "spread": "0px"
           }
         ],
-        "type": "boxShadow",
-        "description": "shadow-popup"
+        "type": "boxShadow"
       }
     },
     "shadow-card": {
@@ -854,18 +852,18 @@
           {
             "color": "#0000001a",
             "type": "dropShadow",
-            "x": 2,
-            "y": 2,
-            "blur": 20,
-            "spread": 0
+            "x": "2px",
+            "y": "2px",
+            "blur": "20px",
+            "spread": "0px"
           },
           {
             "color": "#0000000a",
             "type": "dropShadow",
-            "x": -2,
-            "y": -1,
-            "blur": 4,
-            "spread": 0
+            "x": "-2px",
+            "y": "-1px",
+            "blur": "4px",
+            "spread": "0px"
           }
         ],
         "type": "boxShadow"
@@ -875,18 +873,18 @@
           {
             "color": "#0000000a",
             "type": "dropShadow",
-            "x": 0,
-            "y": 0,
-            "blur": 2,
-            "spread": 0
+            "x": "0px",
+            "y": "0px",
+            "blur": "2px",
+            "spread": "0px"
           },
           {
             "color": "#0000001a",
             "type": "dropShadow",
-            "x": 0,
-            "y": 8,
-            "blur": 20,
-            "spread": 0
+            "x": "0px",
+            "y": "8px",
+            "blur": "20px",
+            "spread": "0px"
           }
         ],
         "type": "boxShadow"
