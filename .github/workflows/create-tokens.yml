@@ -27,11 +27,11 @@ jobs:
           tags: build
 #          tagging_message: build
 
-      - name: "Automated Version Bump"
+      # Automated Version Bump
       - uses: "phips28/gh-action-bump-version@master"
         with:
           tag-prefix: ''
         env:
           GITHUB_TOKEN: ${{ secrets.SFERA_DEPLOY_TOKENS }}
-      # cat package.json"
+      # cat package.json
       - run: cat ./package.json
