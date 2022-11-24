@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Nov 2022 16:04:11 GMT
+ * Generated on Thu, 24 Nov 2022 16:21:40 GMT
  */
 
 [data-theme=dark] {
@@ -120,8 +120,8 @@
   --interactive-active: #13a0fe;
   --interactive-hover: #0890ee;
   --interactive-default: #0f9cfa;
-  --interactive-light-hover: #c2e2f2;
   --interactive-disabled: #d7eaf4;
+  --interactive-light-hover: #4a5a6a;
   --status-for-marker-end-active: #4d6a75;
   --status-for-marker-start-active: #008311;
   --status-for-marker-end: #75929d;
@@ -129,7 +129,7 @@
   --status-for-marker-text-outline: #202020;
   --gray-1000: #fafafa;
   --gray-900: #f7fafc;
-  --gray-800: #edf4f7;
+  --gray-800: #e1e7ea;
   --gray-700: #bec6cb;
   --gray-600: #a6b0b5;
   --gray-500: #9aadb6;
