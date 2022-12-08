@@ -119,6 +119,12 @@
         "value": "#4ac7e9",
         "type": "color"
       }
+    },
+    "marker": {
+      "bg-basic": {
+        "value": "#12a12f",
+        "type": "color"
+      }
     }
   },
   "light": {
@@ -205,6 +211,12 @@
         "value": "#c2e2f2",
         "type": "color"
       }
+    },
+    "marker": {
+      "text-outline": {
+        "value": "#eeeeee",
+        "type": "color"
+      }
     }
   },
   "dark": {
@@ -289,6 +301,12 @@
     "interactive": {
       "light-hover": {
         "value": "#4a5a6a",
+        "type": "color"
+      }
+    },
+    "marker": {
+      "text-outline": {
+        "value": "#202020",
         "type": "color"
       }
     }
