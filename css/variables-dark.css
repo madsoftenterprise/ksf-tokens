@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Nov 2022 16:22:09 GMT
+ * Generated on Thu, 08 Dec 2022 16:11:36 GMT
  */
 
 [data-theme=dark] {
@@ -117,6 +117,8 @@
   --priority-high: #f04b45;
   --priority-mid: #ea840c;
   --priority-low: #2186e3;
+  --marker-bg-basic: #12a12f;
+  --marker-text-outline: #202020;
   --interactive-active: #13a0fe;
   --interactive-hover: #0890ee;
   --interactive-default: #0f9cfa;
