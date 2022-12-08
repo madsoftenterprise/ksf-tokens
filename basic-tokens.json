@@ -121,8 +121,12 @@
       }
     },
     "marker": {
-      "bg-basic": {
+      "basic": {
         "value": "#12a12f",
+        "type": "color"
+      },
+      "cluster": {
+        "value": "#a3b2b9",
         "type": "color"
       }
     }
@@ -213,7 +217,7 @@
       }
     },
     "marker": {
-      "text-outline": {
+      "outline": {
         "value": "#eeeeee",
         "type": "color"
       }
@@ -305,7 +309,7 @@
       }
     },
     "marker": {
-      "text-outline": {
+      "outline": {
         "value": "#202020",
         "type": "color"
       }
