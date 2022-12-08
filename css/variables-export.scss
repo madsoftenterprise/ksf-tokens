@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 16:12:10 GMT
+ * Generated on Thu, 08 Dec 2022 16:16:19 GMT
  */
 
 $theme-colors: (
@@ -115,8 +115,9 @@ $theme-colors: (
    priority-high: var(--priority-high),
    priority-mid: var(--priority-mid),
    priority-low: var(--priority-low),
-   marker-bg-basic: var(--marker-bg-basic),
-   marker-text-outline: var(--marker-text-outline),
+   marker-cluster: var(--marker-cluster),
+   marker-basic: var(--marker-basic),
+   marker-outline: var(--marker-outline),
    interactive-active: var(--interactive-active),
    interactive-hover: var(--interactive-hover),
    interactive-default: var(--interactive-default),
