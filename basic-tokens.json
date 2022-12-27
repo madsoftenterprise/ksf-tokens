@@ -138,6 +138,11 @@
       "dark-blackout": {
         "value": "rgba(0,0,0,0.84)",
         "type": "color"
+      },
+      "gradient-blackout": {
+        "value": "#111",
+        "type": "color",
+        "description": "radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.72) 100%);"
       }
     },
     "gray": {
