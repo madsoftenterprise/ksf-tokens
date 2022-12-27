@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Dec 2022 07:42:08 GMT
+ * Generated on Tue, 27 Dec 2022 14:45:06 GMT
  */
 
 [data-theme=dark] {
@@ -125,11 +125,6 @@
   --interactive-default: #0f9cfa;
   --interactive-disabled: #d7eaf4;
   --interactive-light-hover: #4a5a6a;
-  --status-for-marker-end-active: #4d6a75;
-  --status-for-marker-start-active: #008311;
-  --status-for-marker-end: #75929d;
-  --status-for-marker-start: #12a12f;
-  --status-for-marker-text-outline: #202020;
   --gray-1000: #fafafa;
   --gray-900: #f7fafc;
   --gray-800: #e1e7ea;
