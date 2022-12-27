@@ -42,24 +42,6 @@
         "type": "color"
       }
     },
-    "status-for-marker": {
-      "start": {
-        "value": "#12a12f",
-        "type": "color"
-      },
-      "end": {
-        "value": "#75929d",
-        "type": "color"
-      },
-      "start-active": {
-        "value": "#008311",
-        "type": "color"
-      },
-      "end-active": {
-        "value": "#4d6a75",
-        "type": "color"
-      }
-    },
     "validation": {
       "success": {
         "main": {
@@ -204,12 +186,6 @@
         "type": "color"
       }
     },
-    "status-for-marker": {
-      "text-outline": {
-        "value": "#eeeeee",
-        "type": "color"
-      }
-    },
     "interactive": {
       "light-hover": {
         "value": "#c2e2f2",
@@ -293,12 +269,6 @@
       },
       "1000": {
         "value": "#fafafa",
-        "type": "color"
-      }
-    },
-    "status-for-marker": {
-      "text-outline": {
-        "value": "#202020",
         "type": "color"
       }
     },
