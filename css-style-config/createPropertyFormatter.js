@@ -146,6 +146,10 @@ function createPropertyFormatter({
         (value.includes("+") || value.includes("*") || value.includes(" - ") || value.includes("/"))) {
       value = 'calc('+value+ ")"
     }
+    if(prop.description && typeof prop.description === 'string' && prop.description !== '' && prop.description.includes('gradient')) {
+      value = prop.description
+    }
+
 
 
 
