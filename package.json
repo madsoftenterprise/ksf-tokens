@@ -1,6 +1,6 @@
 {
   "name": "ksf-tokens",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "ksf-tokens",
   "main": "index.js",
   "scripts": {
