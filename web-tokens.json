@@ -246,7 +246,7 @@
         "type": "paragraphSpacing"
       },
       "12": {
-        "value": "12",
+        "value": "12px",
         "type": "paragraphSpacing"
       }
     },
@@ -1028,7 +1028,7 @@
         "type": "paragraphSpacing"
       },
       "12": {
-        "value": "12",
+        "value": "12px",
         "type": "paragraphSpacing"
       }
     },
