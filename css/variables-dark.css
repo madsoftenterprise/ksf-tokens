@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 07:35:04 GMT
+ * Generated on Thu, 26 Jan 2023 08:00:17 GMT
  */
 
 [data-theme=dark] {
@@ -9,6 +9,7 @@
   --text-case-none: none;
   --paragraph-spacing-12: 12px;
   --paragraph-spacing-0: 0;
+  --letter-spacing-m0-04: -0.04px;
   --letter-spacing-m0-12: -0.12px;
   --letter-spacing-m0-2: -0.2px;
   --letter-spacing-m0-24: -0.24px;
@@ -147,13 +148,13 @@
   --button-lite-text-decoration: var(--text-decoration-none);
   --button-lite-text-case: var(--text-case-none);
   --button-lite-paragraph-spacing: 0;
-  --button-lite-letter-spacing: var(--letter-spacing-m0-12);
+  --button-lite-letter-spacing: var(--letter-spacing-m0-04);
   --button-lite-font-weight: var(--font-weights-main-l);
   --button-lite-font-family: var(--font-families-main);
   --button-default-text-decoration: var(--text-decoration-none);
   --button-default-text-case: var(--text-case-none);
   --button-default-paragraph-spacing: 0;
-  --button-default-letter-spacing: var(--letter-spacing-m0-12);
+  --button-default-letter-spacing: var(--letter-spacing-m0-04);
   --button-default-font-weight: var(--font-weights-main-r);
   --button-default-font-family: var(--font-families-main);
   --paragraph-x3-5-weight-1-u-text-decoration: var(--text-decoration-underline);
