@@ -1533,7 +1533,7 @@
           "fontWeight": "{fontWeights.main-r}",
           "lineHeight": "{lineHeights.x5}",
           "fontSize": "{fontSize.x4}",
-          "letterSpacing": "{letterSpacing.m0,24}",
+          "letterSpacing": "{letterSpacing.m0,12}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
@@ -1546,7 +1546,7 @@
           "fontWeight": "{fontWeights.main-l}",
           "lineHeight": "{lineHeights.x5}",
           "fontSize": "{fontSize.x4}",
-          "letterSpacing": "{letterSpacing.m0,24}",
+          "letterSpacing": "{letterSpacing.m0,12}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
