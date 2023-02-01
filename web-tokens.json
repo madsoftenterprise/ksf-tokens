@@ -737,7 +737,8 @@
     "textDecoration": {
       "none": {
         "value": "none",
-        "type": "textDecoration"
+        "type": "textDecoration",
+        "description": "default"
       },
       "underline": {
         "value": "underline",
