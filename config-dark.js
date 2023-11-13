@@ -19,7 +19,7 @@ module.exports = {
         "format": "cssFormatVariables",
         "options": {
           "outputReferences": true,
-          "selector": "[data-theme=dark]",
+          "selector": "[data-theme-mode=dark]",
         }
       }]
     }
