@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Feb 2023 12:31:11 GMT
+ * Generated on Mon, 13 Nov 2023 09:21:10 GMT
  */
 
-[data-theme=dark] {
+[data-theme-mode=dark] {
   --text-decoration-underline: underline;
   --text-decoration-none: none;
   --text-case-none: none;
